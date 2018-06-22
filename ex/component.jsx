@@ -1,7 +1,6 @@
 import React from 'react'
 
-
-export default () => (
-	<h1> teste</h1>
+export default (props) => (
+	<h1>{props.value}</h1>
 )
 

@@ -1,6 +1,7 @@
 import React from 'react'
 
 
-export default function (){
-	return <h1> teste</h1>
-}
+export default () => (
+	<h1> teste</h1>
+)
+
